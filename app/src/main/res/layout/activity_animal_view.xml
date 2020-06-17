@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimalView">
+
+    <ScrollView android:layout_width="match_parent"
+        android:scrollbarStyle="insideOverlay"
+        android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/avatarAnimal"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_centerHorizontal="true"
+                    app:srcCompat="@drawable/man" />
+
+                <TextView
+                    android:id="@+id/nameAnimal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/avatarAnimal"
+                    android:text="Animal Name"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="User Name"
+                    android:id="@+id/animalSource"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="20sp"
+                    android:layout_below="@id/nameAnimal"
+                    android:layout_marginTop="10dp"/>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/animalSource"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/voteLayout"
+                    android:layout_marginTop="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imgDecrease"
+                        android:background="@drawable/notdecreased" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="30sp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:text="10"
+                        android:layout_gravity="center"
+                        android:id="@+id/txtVote"/>
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imgIncrease"
+                        android:background="@drawable/notincreased"/>
+
+                </LinearLayout>
+
+                <com.github.irshulx.Editor
+                    android:layout_width="match_parent"
+                    android:id="@+id/previewRenderer"
+                    android:layout_below="@id/voteLayout"
+                    app:render_type="Renderer"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

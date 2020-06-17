@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/arImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="0.5dp"
+            app:srcCompat="@drawable/man" />
+
+        <TextView
+            android:id="@+id/arName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:text="Animal Name" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
