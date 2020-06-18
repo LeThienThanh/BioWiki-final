@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Fragment;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.biowiki.biowiki.R;
 import com.github.irshulx.Editor;
 
 

@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Models;
 
 import com.google.firebase.database.Exclude;
 

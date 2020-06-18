@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.biowiki.biowiki.models.Model;
+import com.biowiki.biowiki.Ar;
+import com.biowiki.biowiki.Models.Model;
+import com.biowiki.biowiki.R;
+import com.biowiki.biowiki.ViewHolder.ItemClickListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

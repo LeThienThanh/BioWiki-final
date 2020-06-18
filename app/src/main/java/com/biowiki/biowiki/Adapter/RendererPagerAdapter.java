@@ -1,10 +1,11 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Adapter;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.biowiki.biowiki.Fragment.HTMLRenderedFragment;
 import com.biowiki.biowiki.Fragment.PreviewFragment;
 import com.biowiki.biowiki.Fragment.SerializedFragment;
 

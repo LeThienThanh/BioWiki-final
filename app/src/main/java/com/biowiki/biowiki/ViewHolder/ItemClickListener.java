@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.ViewHolder;
 
 import android.view.View;
 

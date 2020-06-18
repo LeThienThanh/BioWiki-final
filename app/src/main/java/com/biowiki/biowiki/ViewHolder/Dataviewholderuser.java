@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.ViewHolder;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,8 +9,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.biowiki.biowiki.R;
+import com.biowiki.biowiki.UserView;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -82,7 +83,7 @@ public class Dataviewholderuser extends RecyclerView.Adapter<RecyclerViewHolderu
             @Override
             public void onClick(View view, int position, boolean isLongClick) {
 
-                Intent intent = new Intent(context,UserView.class);
+                Intent intent = new Intent(context, UserView.class);
                 intent.putExtra("name", namelist.get(position));
                 intent.putExtra("dec", declist.get(position));
                 intent.putExtra("image", linkimglist.get(position));

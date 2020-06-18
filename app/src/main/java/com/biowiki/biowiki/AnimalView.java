@@ -2,9 +2,9 @@ package com.biowiki.biowiki;
 
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.text.Editable;
 import android.view.View;
 import android.widget.EditText;
@@ -12,7 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.biowiki.biowiki.models.Animal;
+import com.biowiki.biowiki.Models.Animal;
 import com.github.irshulx.Editor;
 import com.github.irshulx.EditorListener;
 import com.github.irshulx.models.EditorContent;

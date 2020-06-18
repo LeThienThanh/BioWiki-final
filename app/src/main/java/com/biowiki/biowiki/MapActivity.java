@@ -23,8 +23,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-
-import com.biowiki.biowiki.models.PlaceInfo;
+import com.biowiki.biowiki.Adapter.CustomInfoWindowAdapter;
+import com.biowiki.biowiki.Adapter.PlaceAutocompleteAdapter;
+import com.biowiki.biowiki.Models.PlaceInfo;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesNotAvailableException;
 import com.google.android.gms.common.GooglePlayServicesRepairableException;

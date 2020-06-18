@@ -16,7 +16,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.biowiki.biowiki.models.Animal;
+import com.biowiki.biowiki.Adapter.AnimalAdapter;
+import com.biowiki.biowiki.Adapter.UserAdapter;
+import com.biowiki.biowiki.Models.Animal;
+import com.biowiki.biowiki.Models.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

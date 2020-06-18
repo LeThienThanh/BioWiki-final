@@ -15,9 +15,9 @@ import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.LinearLayout;
 
-import com.biowiki.biowiki.ModelAdapter;
+import com.biowiki.biowiki.Adapter.ModelAdapter;
+import com.biowiki.biowiki.Models.Model;
 import com.biowiki.biowiki.R;
-import com.biowiki.biowiki.models.Model;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

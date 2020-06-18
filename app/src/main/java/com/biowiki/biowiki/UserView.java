@@ -1,14 +1,16 @@
 package com.biowiki.biowiki;
 
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.biowiki.biowiki.models.Animal;
+import com.biowiki.biowiki.Adapter.AnimalAdapter;
+import com.biowiki.biowiki.Models.Animal;
+import com.biowiki.biowiki.Models.User;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;

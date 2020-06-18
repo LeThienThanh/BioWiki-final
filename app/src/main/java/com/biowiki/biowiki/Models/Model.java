@@ -1,4 +1,4 @@
-package com.biowiki.biowiki.models;
+package com.biowiki.biowiki.Models;
 
 import java.io.Serializable;
 

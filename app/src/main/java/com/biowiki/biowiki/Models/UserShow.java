@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Models;
 
 public class UserShow {
     String name, image, email,createdAt,dec;

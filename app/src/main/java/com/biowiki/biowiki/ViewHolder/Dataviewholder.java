@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.ViewHolder;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,14 +8,14 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.biowiki.biowiki.AnimalView;
+import com.biowiki.biowiki.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener
-{
+class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener {
     public ImageView profile_image;
     public TextView profile_name,profile_dec,profile_adress,profile_uid;
 
@@ -30,8 +30,7 @@ class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClick
         itemView.setOnLongClickListener(this);
     }
 
-    public void setItemClickListener(ItemClickListener itemClickListener)
-    {
+    public void setItemClickListener(ItemClickListener itemClickListener) {
         this.itemClickListener = itemClickListener;
     }
 

@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,11 +10,15 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.biowiki.biowiki.Models.User;
+import com.biowiki.biowiki.R;
+import com.biowiki.biowiki.UserView;
+import com.biowiki.biowiki.ViewHolder.ItemClickListener;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-class UserAdapter extends RecyclerView.Adapter <UserAdapter.userViewHolder> {
+public class UserAdapter extends RecyclerView.Adapter <UserAdapter.userViewHolder> {
 
     Context mContext;
     ArrayList<User> mUsers;

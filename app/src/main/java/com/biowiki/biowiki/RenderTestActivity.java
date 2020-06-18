@@ -12,7 +12,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.biowiki.biowiki.models.Animal;
+import com.biowiki.biowiki.Adapter.RendererPagerAdapter;
+import com.biowiki.biowiki.Models.Animal;
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DataSnapshot;

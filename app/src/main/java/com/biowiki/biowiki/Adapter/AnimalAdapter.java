@@ -1,4 +1,4 @@
-package com.biowiki.biowiki;
+package com.biowiki.biowiki.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,7 +10,10 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.biowiki.biowiki.models.Animal;
+import com.biowiki.biowiki.AnimalView;
+import com.biowiki.biowiki.Models.Animal;
+import com.biowiki.biowiki.R;
+import com.biowiki.biowiki.ViewHolder.ItemClickListener;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.maps.android.clustering.ClusterItem;
 import com.squareup.picasso.Picasso;
@@ -91,7 +94,7 @@ public class AnimalAdapter extends RecyclerView.Adapter <AnimalAdapter.animalVie
 
     public static class Location implements ClusterItem {
        Double lati,longti,radius;
-       String name,img;
+       public String name, img;
        LatLng mposition;
         public Location() {
         }

@@ -21,10 +21,10 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
+import com.biowiki.biowiki.Models.Animal;
+import com.biowiki.biowiki.Models.Upload;
 import com.biowiki.biowiki.R;
 import com.biowiki.biowiki.RenderTestActivity;
-import com.biowiki.biowiki.Upload;
-import com.biowiki.biowiki.models.Animal;
 import com.github.irshulx.Editor;
 import com.github.irshulx.EditorListener;
 import com.github.irshulx.models.EditorTextStyle;
